@@ -45,12 +45,9 @@
                         <td>[[${record.Street}]]</td>
                         <td>[[${record.city}]]</td>
                         <td>[[${record.postcode}]]</td>
-                        <td [[${record.voivodeship}]]></td>
-
-
-
                         <td>
-
+                            <a class = "h4 mr-3" th:href="@{'/personalDetails/edit/' +${record.id}}">Edit</a>
+<!--                            <a class = "h4" th:href="@{'/PersonalDetails/delete/' +${record.id}}">Delete</a>-->
                         </td>
 
                     </tr>

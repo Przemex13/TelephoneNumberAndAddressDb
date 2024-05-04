@@ -20,7 +20,7 @@ public class PersonalDetailService {
         personalDetailRepository.save(personalDetail);
     }
 
-    public PersonalDetail get (int intID) throws PersonalDetailNotFoundExemption {
+    public PersonalDetail get (Integer intID) throws PersonalDetailNotFoundExemption {
         Optional<PersonalDetail> personalDetailRepositoryOptional = personalDetailRepository.findById(intID);
         if (personalDetailRepositoryOptional.isPresent()){
             return personalDetailRepositoryOptional.get();

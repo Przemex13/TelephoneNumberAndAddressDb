@@ -24,8 +24,8 @@ public class PersonalDetail {
     private String postcode;
     @Column(length = 20, name = "city")
     private String city;
-    @Enumerated(EnumType.STRING)
-    private Voivodeship voivodeship;
+//    @Enumerated(EnumType.STRING)
+//    private Voivodeship voivodeship;
 
     public int getId() {
         return id;
@@ -99,11 +99,11 @@ public class PersonalDetail {
         this.city = city;
     }
 
-    public Voivodeship getVoivodship() {
-        return voivodeship;
-    }
-
-    public void setVoivodship(Voivodeship voivodeship) {
-        this.voivodeship = voivodeship;
-    }
+//    public Voivodeship getVoivodship() {
+//        return voivodeship;
+//    }
+//
+//    public void setVoivodship(Voivodeship voivodeship) {
+//        this.voivodeship = voivodeship;
+//    }
 }
