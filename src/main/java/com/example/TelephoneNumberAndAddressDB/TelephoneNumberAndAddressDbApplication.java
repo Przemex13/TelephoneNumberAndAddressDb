@@ -10,5 +10,4 @@ public class TelephoneNumberAndAddressDbApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TelephoneNumberAndAddressDbApplication.class, args);
 	}
-
 }

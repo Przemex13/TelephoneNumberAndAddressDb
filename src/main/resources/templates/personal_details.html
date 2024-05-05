@@ -9,7 +9,7 @@
 <div class="container-fluid text-center">
     <div><h2>Manage Users</h2></div>
     <div class = "m-2">
-        <a class = "h3" th:href = "@{/users/new}">Add New User</a>
+        <a class = "h3" th:href = "@{/personalDetalis/new}">Add New User</a>
     </div>
 
     <div th:if="${message}" class="alert alert-success">
@@ -29,7 +29,6 @@
                     <th>Street</th>
                     <th>City</th>
                     <th>Postcode</th>
-                    <th>Voivodship</th>
                     <th></th>
                 </tr>
             </thead>
@@ -47,7 +46,7 @@
                         <td>[[${record.postcode}]]</td>
                         <td>
                             <a class = "h4 mr-3" th:href="@{'/personalDetails/edit/' +${record.id}}">Edit</a>
-<!--                            <a class = "h4" th:href="@{'/PersonalDetails/delete/' +${record.id}}">Delete</a>-->
+                            <a class = "h4" th:href="@{'/personalDetails/delete/' +${record.id}}">Delete</a>
                         </td>
 
                     </tr>
