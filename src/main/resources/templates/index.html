@@ -2,13 +2,15 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
     <head>
         <meta charset="UTF-8">
-        <title>Welcome to my Application</title>
+        <title>Baza Danych</title>
         <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}">
     </head>
     <body>
         <div class="container-fluid text-center">
-            <h1>Welcome to my Application!</h1>
-            <a  class="h2" th:href="@{/personalDetails}">Manage Users</a>
+            <h1>Teleadresowa Baza danych</h1>
+            <div>Jeżeli widzisz ten ekran to znaczy że kontener został uruchomiony poprawnie a aplikacja działa prawidłowo <br>
+            Kliknij poniższy link</div>
+            <a  class="h2" th:href="@{/personalDetails}">Manage Personal Details</a>
         </div>
     </body>
 </html>
