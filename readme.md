@@ -12,7 +12,7 @@ W bazie znajduje się jedna tabela, która posiada następujące kolumny:\
 -First Name	\
 -Last Name	\
 -PESEL	\
--Phone Number \	
+-Phone Number \
 -Email	\
 -Street	\
 -City	\
