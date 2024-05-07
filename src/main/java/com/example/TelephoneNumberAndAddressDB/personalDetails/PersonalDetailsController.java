@@ -24,7 +24,6 @@ public class PersonalDetailsController {
 
         return "personal_details";
     }
-
     @GetMapping("/personalDetails/edit/{id}")
     public String showEditForm(@PathVariable("id") Integer id, Model model, RedirectAttributes redirectAttributes) {
 
@@ -37,7 +36,6 @@ public class PersonalDetailsController {
             redirectAttributes.addFlashAttribute("message", "The User has been saved successfully");
             return "redirect:/personal_details";
         }
-
     }
 
     @PostMapping("/personal_details/save")

@@ -29,41 +29,5 @@ public class PersonalDetail {
     @Column(length = 20, name = "city")
     private String city;
 
-//    public void setId(int id) {
-//        this.id = id;
-//    }
-//
-//    public void setName(String name) {
-//        this.name = name;
-//    }
-//
-//    public void setSurname(String surname) {
-//        this.surname = surname;
-//    }
-//
-//    public void setPeselNumber(String peselNumber) {
-//        this.peselNumber = peselNumber;
-//    }
-//
-//    public void setTelephoneNumber(String telephoneNumber) {
-//        this.telephoneNumber = telephoneNumber;
-//    }
-//
-//    public void setEmail(String email) {
-//        this.email = email;
-//    }
-//
-//    public void setStreet(String street) {
-//        street = street;
-//    }
-//
-//    public void setPostcode(String postcode) {
-//        this.postcode = postcode;
-//    }
-//
-//    public void setCity(String city) {
-//        this.city = city;
-//    }
-
 
 }
