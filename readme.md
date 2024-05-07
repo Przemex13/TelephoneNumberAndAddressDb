@@ -86,7 +86,7 @@ I used following technologies and libraries:\
 -Thymeleaf\
 -Bootstrap\
 -Hibernate
--Spring Data JPA
+
 
 How to run the container?
 
