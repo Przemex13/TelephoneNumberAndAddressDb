@@ -29,8 +29,7 @@ Wykorzystano następujące technologie i biblioteki:\
 -Html\
 -Thymeleaf\
 -Bootstrap\
--Hibernate
--Spring Data JPA
+-Hibernate\
 
 
 Jak uruchomić kontener?
