@@ -29,7 +29,7 @@ Wykorzystano następujące technologie i biblioteki:\
 -Html\
 -Thymeleaf\
 -Bootstrap\
--Hibernate\
+-Hibernate
 
 
 Jak uruchomić kontener?
