@@ -53,7 +53,8 @@ spring.datasource.password=Przemek123
 należy zatem wpisać polecenie:
 
 docker run --name TelephoneNumberAndAddressContainer -e MYSQL_ROOT_PASSWORD=Przemek123 -e MYSQL_DATABASE=telephoneAndAddressDB -d -p 3307:3306 przemex13/telephoneandaddressdatabase
-W razie pytań, sugestii i problemów, służe pomocą
+W razie pytań, sugestii i problemów, służe pomocą \
+
 przemyslaw.poskrobko@gmail.com
 
 --------------------------------
